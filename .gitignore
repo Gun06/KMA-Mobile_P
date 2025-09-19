@@ -1,0 +1,222 @@
+# Miscellaneous
+*.class
+*.log
+*.pyc
+*.swp
+.DS_Store
+.atom/
+.buildlog/
+.history
+.svn/
+migrate_working_dir/
+
+# IntelliJ related
+*.iml
+*.ipr
+*.iws
+.idea/
+
+# The .vscode folder contains launch configuration and tasks you configure in
+# VS Code which you may wish to be included in version control, so this line
+# is commented out by default.
+#.vscode/
+
+# Flutter/Dart/Pub related
+**/doc/api/
+**/ios/Flutter/.last_build_id
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub-cache/
+.pub/
+/build/
+
+# Symbolication related
+app.*.symbols
+
+# Obfuscation related
+app.*.map.json
+
+# Android Studio will place build artifacts here
+/android/app/debug
+/android/app/profile
+/android/app/release
+
+# iOS related
+**/ios/**/*.mode1v3
+**/ios/**/*.mode2v3
+**/ios/**/*.moved-aside
+**/ios/**/*.pbxuser
+**/ios/**/*.perspectivev3
+**/ios/**/*sync
+**/ios/**/.sconsign.dblite
+**/ios/**/.tags*
+**/ios/**/.vagrant/
+**/ios/**/DerivedData/
+**/ios/**/Icon?
+**/ios/**/Pods/
+**/ios/**/.symlinks/
+**/ios/**/profile
+**/ios/**/xcuserdata
+**/ios/.generated/
+**/ios/Flutter/App.framework
+**/ios/Flutter/Flutter.framework
+**/ios/Flutter/Flutter.podspec
+**/ios/Flutter/Generated.xcconfig
+**/ios/Flutter/ephemeral/
+**/ios/Flutter/app.flx
+**/ios/Flutter/app.zip
+**/ios/Flutter/flutter_assets/
+**/ios/Flutter/flutter_export_environment.sh
+**/ios/ServiceDefinitions.json
+**/ios/Runner/GeneratedPluginRegistrant.*
+
+# macOS related
+**/macos/Flutter/GeneratedPluginRegistrant.swift
+**/macos/Flutter/ephemeral/
+
+# Coverage
+coverage/
+
+# Web related
+lib/generated_plugin_registrant.dart
+
+# Exceptions to above rules.
+!**/ios/**/default.mode1v3
+!**/ios/**/default.mode2v3
+!**/ios/**/default.pbxuser
+!**/ios/**/default.perspectivev3
+
+# ===========================================
+# 보안 관련 파일들 (Security Sensitive Files)
+# ===========================================
+
+# API Keys & Secrets
+*.env
+.env
+.env.local
+.env.development
+.env.production
+.env.staging
+secrets.json
+config.json
+api_keys.json
+credentials.json
+
+# Android Keystore & Signing
+*.keystore
+*.jks
+*.p8
+*.p12
+*.key
+*.pem
+android/app/upload-keystore.jks
+android/app/debug.keystore
+android/app/release.keystore
+android/key.properties
+android/app/google-services.json
+android/app/google-services-debug.json
+android/app/google-services-release.json
+
+# iOS Certificates & Provisioning
+*.mobileprovision
+*.p8
+*.cer
+*.p12
+ios/Runner/GoogleService-Info.plist
+ios/Runner/GoogleService-Info-Debug.plist
+ios/Runner/GoogleService-Info-Release.plist
+ios/Runner/Config.xcconfig
+
+# Firebase & Google Services
+google-services.json
+GoogleService-Info.plist
+firebase_options.dart
+
+# Local Properties (Android SDK paths, etc.)
+local.properties
+android/local.properties
+
+# Gradle
+.gradle/
+gradle.properties
+android/gradle.properties
+
+# Build outputs
+build/
+android/app/build/
+ios/build/
+macos/build/
+windows/build/
+linux/build/
+
+# Temporary files
+*.tmp
+*.temp
+*.log
+*.cache
+
+# IDE specific
+.vscode/settings.json
+.vscode/launch.json
+.vscode/tasks.json
+.idea/workspace.xml
+.idea/tasks.xml
+.idea/dictionaries
+.idea/shelf
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Flutter specific
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub-cache/
+.pub/
+.dart_tool/
+
+# Generated files
+**/*.g.dart
+**/*.freezed.dart
+**/*.mocks.dart
+**/*.config.dart
+
+# Database files
+*.db
+*.sqlite
+*.sqlite3
+
+# Log files
+logs/
+*.log
+
+# Test coverage
+coverage/
+test/coverage/
+
+# Documentation
+doc/api/
+
+# Backup files
+*.bak
+*.backup
+*~
+
+# Archive files
+*.zip
+*.tar.gz
+*.rar
+*.7z
+
+# Assets (선택적 제외)
+# assets/images/temp/
+# assets/icons/draft/
+# assets/fonts/temp/
